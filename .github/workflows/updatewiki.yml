@@ -16,7 +16,7 @@ jobs:
         uses: LillyWho/ghaction-wiki-sync-custom@v1.0
         with:
           username: 14paxton
-          access_token: ${{ secrets.SYNC_WIKI_TOKEN }}
+          access_token: ${{ secrets.SYNCTOKEN }}
           wiki_folder: wiki
           commit_message: "wikisync"
           commit_username: "14paxton"
