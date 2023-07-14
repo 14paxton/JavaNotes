@@ -1,9 +1,23 @@
-- name: Wiki Sync
-  uses: JoeIzzard/ghaction-wiki-sync@v1
-  with:
-    username: 14paxton
-    access_token: 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
-    wiki_folder: wiki
-    commit_message: wikisync
-    commit_username: 14paxton@gmail.com
-    commit_email: 14paxton@gmail.com
+---
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+name: Wiki Sync
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Sync Wiki
+        uses: joeizzard/action-wiki-sync@master
+        with:
+          username: 14paxton
+          access_token: ${{ secrets.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 }}
+          wiki_folder: wiki
+          commit_message: wikisync
+          commit_username: 14paxton@gmail.com
+          commit_email: 14paxton@gmail.com
