@@ -3,7 +3,8 @@
 ## Map and Collect
 
 ```java
-this.clientEntityMap.entrySet()
+
+clientEntityMap.entrySet()
         .stream()
         .collect(Collectors.toMap(Map.Entry::getKey,entry->entry
         .getValue()
@@ -12,6 +13,7 @@ this.clientEntityMap.entrySet()
         String externalCode=e.getDescription();
         String externalCode=e.getDescription();
         String externalCode=e.getDescription();
+
         return Map.of("externalCode","");
         })
         .collect(Collectors.toList())
@@ -32,5 +34,5 @@ return this.clientEntityMap.entrySet()
 ```java
 map.keySet().stream()
         .map(key->key+"="+map.get(key))
-        .collect(Collectors.joining(", ","{","}")));
+        .collect(Collectors.joining(", ","{","}"));
 ```
