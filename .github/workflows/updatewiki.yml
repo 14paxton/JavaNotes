@@ -1,3 +1,4 @@
+---
 - name: updatewiki
   uses: JoeIzzard/ghaction-wiki-sync@v1
   with:
