@@ -1,6 +1,4 @@
 ---
-name: Update Wiki
-
 on:
   push:
     branches:
@@ -8,16 +6,17 @@ on:
   pull_request:
     branches:
       - "master"
-
+name: Update Wiki
 jobs:
-  stale:
+  udpate-wiki:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: JoeIzzard/ghaction-wiki-sync@v1
-      with:
-        username: 14paxton
-        access_token: "{{ secrets.SYNC_WIKI_TOKEN }}"
-        commit_message: "wikisync"
-        commit_username: "14paxton"
-        commit_email: "14paxton@gmail.com"
+      - uses: actions/checkout@master
+      - name: Wiki Sync
+        uses: JoeIzzard/ghaction-wiki-sync@v1
+        with:
+          username: 14paxton
+          access_token: "{{ secrets.SYNC_WIKI_TOKEN }}"
+          commit_message: "wikisync"
+          commit_username: "14paxton"
+          commit_email: "14paxton@gmail.com"
