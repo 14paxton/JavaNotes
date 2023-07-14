@@ -18,7 +18,6 @@ jobs:
       with:
         username: 14paxton
         access_token: "{{ secrets.SYNC_WIKI_TOKEN }}"
-        wiki_folder: "wiki"
         commit_message: "wikisync"
         commit_username: "14paxton"
         commit_email: "14paxton@gmail.com"
