@@ -1,10 +1,10 @@
 ---
-- name: updatewiki
-  uses: JoeIzzard/ghaction-wiki-sync@v1
-  with:
-    username: 14paxton
-    access_token: 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
-    wiki_folder: wiki
-    commit_message: wikisync
-    commit_username: 14paxton@gmail.com
-    commit_email: 14paxton@gmail.com
+name: Wiki Sync
+uses: JoeIzzard/ghaction-wiki-sync@v1
+with:
+  username: 14paxton
+  access_token: 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
+  wiki_folder: wiki
+  commit_message: wikisync
+  commit_username: 14paxton@gmail.com
+  commit_email: 14paxton@gmail.com
