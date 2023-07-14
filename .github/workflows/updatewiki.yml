@@ -10,7 +10,7 @@ on:
       - "master"
 
 jobs:
-  update-wiki:
+  stale:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
