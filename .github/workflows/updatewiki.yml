@@ -17,7 +17,7 @@ jobs:
         with:
           username: 14paxton
           access_token: ${{ secrets.SYNCTOKEN }}
-          wiki_folder: ${GITHUB_REPOSITORY#*/}
+          wiki_folder: ${{GITHUB_REPOSITORY#*/}}
           commit_message: "wikisync"
           commit_username: "14paxton"
           commit_email: "14paxton@gmail.com"
