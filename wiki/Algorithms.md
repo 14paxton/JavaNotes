@@ -3,9 +3,12 @@ title: Algorithms
 category: wiki  
 share: true    
 share: true    
-shortRepo: java    
+shortRepo:   
+- default    
+- java  
 ---  
   
+testing full dual  
 # Algos  
   
 ## binary search  
