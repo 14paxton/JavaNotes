@@ -3,13 +3,9 @@ title: Algorithms
 category: wiki  
 share: true    
 share: true    
-repo:    
-  owner: 14paxton    
-  repo: JavaNotes   
-  branch: master    
-  autoclean: false      
+shortRepo: java    
 ---  
-fuck me running  
+  
 # Algos  
   
 ## binary search  
