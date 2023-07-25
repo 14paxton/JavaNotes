@@ -5,7 +5,6 @@ parent: Java
 permalink: JavaNotes/Algorithms  
 category: JavaNotes  
 share: true    
-share: true    
 shortRepo:   
 - default    
 - java  
