@@ -1,4 +1,4 @@
----  
+---
 title: Algorithms    
 layout: default  
 permalink: JavaNotes/Algorithms  
@@ -8,8 +8,8 @@ share: true
 shortRepo:   
 - default    
 - java  
----  
-  
+---
+
 # Algos  
   
 ## binary search  
