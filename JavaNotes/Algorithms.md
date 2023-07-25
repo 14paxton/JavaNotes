@@ -1,6 +1,6 @@
 ---  
 title: Algorithms    
-category: wiki  
+category: JavaNotes  
 share: true    
 share: true    
 shortRepo:   
@@ -8,7 +8,6 @@ shortRepo:
 - java  
 ---  
   
-testing full dual  
 # Algos  
   
 ## binary search  
