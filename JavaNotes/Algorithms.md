@@ -1,14 +1,15 @@
----  
+---
 title: Algorithms    
+layout: default  
+permalink: JavaNotes/Algorithms  
 category: JavaNotes  
 share: true    
 share: true    
 shortRepo:   
 - default    
 - java  
----  
-  
-testing full fuck fuck fuck  
+---
+
 # Algos  
   
 ## binary search  
