@@ -1,3 +1,15 @@
+---
+title:     CommandLineDiddys  
+layout:    default  
+parent:    Java  
+permalink: JavaNotes/CommandLineDiddys  
+category:  JavaNotes  
+share:     true  
+shortRepo:
+  - java
+  - default  
+---
+
 JPS - https://docs.oracle.com/en/java/javase/17/docs/specs/man/jps.html
 
 running java processes = jps -lV

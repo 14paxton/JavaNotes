@@ -1,10 +1,13 @@
 ---
-title: Hibernate
-category: JavaNotes.wiki/Hibernate
-share: true
-repo:
-  repo: JavaNotes.wiki
-  autoclean: false  
+title:     Hibernate
+layout:    default
+parent:    Java
+permalink: JavaNotes/Hibernate
+category:  JavaNotes
+share:     true
+shortRepo:
+  - java
+  - default  
 ---
 
 # Hibernate
@@ -195,4 +198,3 @@ public class Location implements Serializable {
     }
 }
 ```
-

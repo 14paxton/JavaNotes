@@ -1,3 +1,15 @@
+---
+title:     Email  
+layout:    default  
+parent:    Java  
+permalink: JavaNotes/Email  
+category:  JavaNotes  
+share:     true  
+shortRepo:
+  - java
+  - default  
+---
+
 # JavaMail API
 
 ```java

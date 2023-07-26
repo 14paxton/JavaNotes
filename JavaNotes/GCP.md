@@ -1,3 +1,15 @@
+---
+title:     GCP  
+layout:    default  
+parent:    Java  
+permalink: JavaNotes/GCP  
+category:  JavaNotes  
+share:     true  
+shortRepo:
+  - java
+  - default  
+---
+
 # [App Engine](https://cloud.google.com/appengine/docs/standard/java-gen2/runtime)
 
 ---
