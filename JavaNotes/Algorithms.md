@@ -1,20 +1,36 @@
 ---  
-title: Algorithms    
-layout: default  
-parent: Java  
+title:     Algorithms  
+layout:    default  
+parent:    Java  
 permalink: JavaNotes/Algorithms  
-category: JavaNotes  
-share: true    
-shortRepo:   
-- default    
-- java  
+category:  JavaNotes  
+share:     true  
+shortRepo:  
+  - default  
+  - java    
 ---  
+  
+  
+<details markdown="block">        
+<summary>        
+Table of contents        
+</summary>        
+{: .text-delta }        
+1. TOC        
+{:toc}        
+</details>        
+  
+<br/>        
+  
+***        
+  
+<br/>        
   
 # Algos  
   
 ## binary search  
   
-```java  
+```java      
 public class BinarySearch {  
   
     public static int find(int[] numbers, int target) {  
@@ -32,29 +48,29 @@ public class BinarySearch {
             }  
         }  
   
-        // +1, because 0 belongs to positive indices  
+        // +1, because 0 belongs to positive indices      
         return -(min + 1);  
     }  
-}  
-```  
+}      
+```      
   
 ## Selection Sort  
   
-```java  
+```java      
 public void sort(int[]values){  
-        // 1. Iteration over the input data   
+        // 1. Iteration over the input data       
         for(int i=0;i<values.length;i++){  
-// 2. Find the index of the smallest element          
+// 2. Find the index of the smallest element              
         int minPos=indexOfMinimum(values,i);  
-// 3. Move the smallest element into the current position          
+// 3. Move the smallest element into the current position              
         swap(values,i,minPos);  
         }  
-        }  
-```  
+        }      
+```      
   
 ## filter string  
   
-```java  
+```java      
 public static Boolean QuestionsMarks(String str){  
         AtomicBoolean returnVal=new AtomicBoolean(Boolean.FALSE);  
         LinkedHashMap<Integer, Character> indexForNumberMap=new LinkedHashMap<>();  
@@ -96,5 +112,5 @@ public static Boolean QuestionsMarks(String str){
         }  
   
         return returnVal.get();  
-        }  
-```  
+        }      
+```    
