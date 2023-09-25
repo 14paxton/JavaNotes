@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Wiki Sync
-        uses: LillyWho/ghaction-wiki-sync-custom@v1.0
+        uses: 14paxton/ghaction-wiki-sync-custom@v1.1.1
         with:
           username: 14paxton
           access_token: ${{ secrets.SYNCTOKEN }}
